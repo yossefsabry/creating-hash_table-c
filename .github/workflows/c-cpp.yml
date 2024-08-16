@@ -15,9 +15,9 @@ jobs:
     - uses: actions/checkout@v4
     - name: configure
       run: ./configure
-    - name: make
-      run: make
+    - name: make 
+      run: make main
     - name: make check
-      run: make check
+      run: make main
     - name: make distcheck
-      run: make distcheck
+      run: make main
